@@ -15,7 +15,7 @@ Options:
   -h, --help            Print help information
 
 Example:
-  ./a -d -p 80 -L -l /tmp/access.log -b -r /var/www -i index.html
+  ./a -d -p 8080 -L -l /tmp/access.log -b -r /var/www -i index.html
   ./a -d -p80 -m128 -L -l/tmp/access.log -b -r/var/www -iindex.html
   ./a --is-daemon --port=80 --max-client=128 --is-log --log-path=/tmp/access.log --is-browse --doc-root=/var/www --dir-index=index.html
 ```
